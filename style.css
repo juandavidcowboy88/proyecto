@@ -1,0 +1,45 @@
+body {
+  background-size: cover;
+  height: 100%;
+  width: 100%
+}
+
+button{
+    background: #DB3030;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+  }
+
+.box{
+ margin: 150px 50px 50px 50px;
+ padding: 15px;
+ border-radius: 10px;
+ background-color: rgba(0, 0, 0, 0.6);
+ width: 600px;
+ height:auto;
+ text-align:left;
+}
+
+.texto {
+font-family: 'Roboto';
+color: white;
+}
+
+@media screen and (max-width: 700px) {
+button{
+    background:#DB3030;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+  }
+.box{
+ margin: 150px 50px 50px 50px;
+ padding: 15px;
+ border-radius: 10px;
+ background-color: rgba(0, 0, 0, 0.6);
+  width: auto;
+  height:auto;
+  text-align:left;
+  }
+}
